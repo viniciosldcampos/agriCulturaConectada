@@ -2,57 +2,27 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Cronograma - AgriCultura Conectada</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
-    th { background: #4CAF50; color: white; }
-    tr:nth-child(even) { background: #f2f2f2; }
-  </style>
+  <title>AgriCultura Conectada</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <h1>Cronograma do Projeto</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Fase</th>
-        <th>Atividades</th>
-        <th>Duração Estimada</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1. Planejamento</td>
-        <td>Definição de escopo, levantamento de requisitos</td>
-        <td>1 semana</td>
-      </tr>
-      <tr>
-        <td>2. Análise</td>
-        <td>Modelagem de processos, definição de arquitetura</td>
-        <td>1 semana</td>
-      </tr>
-      <tr>
-        <td>3. Design</td>
-        <td>Protótipos, wireframes, layout de interfaces</td>
-        <td>1 semana</td>
-      </tr>
-      <tr>
-        <td>4. Desenvolvimento</td>
-        <td>Codificação dos módulos principais</td>
-        <td>2 semanas</td>
-      </tr>
-      <tr>
-        <td>5. Testes</td>
-        <td>Testes funcionais, de usabilidade e ajustes</td>
-        <td>1 semana</td>
-      </tr>
-      <tr>
-        <td>6. Implantação</td>
-        <td>Publicação da plataforma e treinamento</td>
-        <td>1 semana</td>
-      </tr>
-    </tbody>
-  </table>
+  <h1>AgriCultura Conectada</h1>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Menu</h2>
+      <button class="btn-login">Login<a href=./login.html></a></button><br>
+      <button class="btn-perfil">Perfil<a href=./perfil.html></a></button><br>
+      <button class="btn-produtos">Produtos<a href=./produtos.html></a></button><br>
+      <button class="btn-receita">Receitas<a href=./receitas.html></a></button><br>
+      <button class="btn-despesa">Despesas<a href=./despesas.html></a></button><br>
+      <button class="btn-cadastro">Cadastro<a href="./cadastro.html"></a></button>
+    </div>
+    <div class="main">
+      <h2>Bem-vindo(a) à AgriCultura Conectada</h2>
+      <p>Use o menu para navegar entre as funcionalidades da plataforma.</p>
+      <p>Aqui você pode acessar produtos da agricultura familiar, conhecer eventos culturais e localizar feiras e produtores na sua região.</p>
+    </div>
+  </div>
 </body>
+<script src="./script.js"></script>
 </html>
